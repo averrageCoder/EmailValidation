@@ -21,3 +21,10 @@ emailRegex = RegExp('^[a-z]+@[a-z]+\\.[a-z]+');
 arguments.forEach(element => {
     console.log(element+": ", emailRegex.test(element));
 });
+
+//uc4
+console.log("======= UC 4 =======")
+emailRegex = RegExp('^[a-z]+([\.\+\_\-][a-z]+)?@[a-z]+.[a-z]+');
+arguments.forEach(element => {
+    console.log(element+": ", emailRegex.test(element));
+});
